@@ -1,1 +1,1 @@
-bot: bash start
+worker: mentionall.py
