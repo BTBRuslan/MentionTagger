@@ -83,7 +83,7 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"**👋 Salam mən qrupunuzdakı bütün hamını tağ edə bilərəm😇\n\n💁 Ətraflı məlumat üçün '📚 Kömək' bölməsinə daxil olun**", buttons=(
+     await event.reply(f"**👋 Salam mən qrupunuzdakı bütün hamını tağ edə bilərəm😇\n\n💁 Ətraflı məlumat üçün '📚 Əmrlər' bölməsinə daxil olun**", buttons=(
                      [Button.url('➕ Qrupa Əlavə Et ➕','http://t.me/DarkTagger_bot?startgroup=a')],
 		   # [Button.url('👨‍💻 Sahib', 'https://t.me/ordayam_5_deqiqeye')],
 	            # [Button.url('Oyun Qurubu 🎮 ', 'https://t.me/TheBorzMaf'),
