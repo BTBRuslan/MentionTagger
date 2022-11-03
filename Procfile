@@ -1,1 +1,1 @@
-worker: mentionall.py
+worker: python mentionall.py
